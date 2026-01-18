@@ -1,0 +1,401 @@
+ *{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+
+    color:#3a6cf4 ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgb(140, 0, 255);
+    font-size:1.2em ;
+}
+section{
+    padding: 100px 200px;
+
+}
+.img{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content:flex-end;
+    
+}
+.img img{
+    border-radius: 80%;
+    width: 300px;
+}
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(photo/1768309342564.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.main h2{
+    color: white;
+    font-weight: 600;
+    
+}
+
+.main span{
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    color:red;
+    font-size:33px;
+    font-weight: 600;
+}
+
+.main h3{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: aliceblue;
+    background-color: #0e2f8a;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.3s;
+}
+
+.main-btn:hover{
+    font-size: 1.2em;
+    background-color: #001244;
+    cursor:default;
+}
+
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: 0.3s;
+
+}
+
+.social-icons a:hover{
+    font-size: 2em;
+    
+}
+
+/*
+@media (min-width:200px){
+ .container{
+    width: 200px;
+ }
+}
+
+
+
+@media (min-width:992px){
+.container{
+    width: 970px;
+ }
+}
+
+
+
+
+
+@media (min-width:1200px){
+ .container{
+    width: 1170px;
+ }
+}
+*/
+
+
+
+.title{
+    text-align: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background-color:rgb(231, 231, 231);
+    width:340px;
+    box-shadow: 1px 1px 5px 1px rgb(73, 71, 71);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.3s;
+}
+.card:hover{
+    scale : 1.1;
+}
+
+
+.icon{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+
+
+.info h3{
+    color: #3a6cf4;
+    text-align: center;
+    font-size: 19px;
+    margin: 10px;
+
+}
+.info p{
+    text-align: center;
+    font-size: 23px;
+}
+
+
+
+
+.projects{
+    background-color: black;
+}
+.content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projects .content2{
+    margin-top: 30px;
+}
+.project-card{
+
+    background-color: beige;
+    border: 1px solid white;
+    min-height: 30px;
+    width:514px;
+   /* overflow: hidden;/*عشان لما اقف بالموس ع الصوره متتطلعش برا المحتوي*/
+    border-radius: 10px;
+    margin: 30px;
+    transition: 0.5s;
+
+
+}
+.project-card:hover{
+    scale: 1.1;
+}
+
+.project-img img{
+    width: 100%;/*دا معناه هياخد الحجم من حجم الكارت */
+}
+
+.project-img:hover{
+    opacity: 0.9;
+}
+.project-info{
+    margin: 10px;
+   
+}
+.project-info p{
+    font-size: 19px;
+}
+.project-info strong{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.project-info strong a{
+    color:#3a6cf4 ;
+    text-decoration: none;
+}
+
+.project-info strong a:hover{
+    color: rgb(140, 0, 255);
+}
+
+
+
+
+/*عايز افصل بين الفوتر*/
+/*
+
+.contact,.title,.contant3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+*/
+
+
+
+
+.contant3{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card-phone{
+    padding: 10px;
+    background-color: rgb(243, 243, 243);
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 211, 211);
+    box-shadow: 1px 1px 5px 1px red;
+    transition: 0.4s;
+    margin-right: 50px; 
+}
+
+.card-phone .icon-phone{
+    color: #3a6cf4;
+    font-size: 53px;
+    text-align: center;
+    padding: 5px;
+}
+
+.info-phone h5{
+    text-align: center;
+    font-size: 28px;
+    padding: 4px;
+    text-transform: capitalize;
+}
+
+
+.info-phone p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px;
+}
+.card-phone:hover{
+    scale: 1.1;
+}
+
+
+
+.footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.849);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+.footer p{
+    margin-left: 30px;
+}
+
+
+.social-icons-2 a{
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.footer strong{
+    color: #3a6cf4;
+}
+
+@media(max-width:1023px){
+    header{
+        padding: 10px 20px;
+    }
+ 
+    .navigation a{
+        padding-right: 400px;
+    }
+    .img{
+        width: 30%;
+        height: 30%;
+        position: relative;
+        }
+    .img img{
+        width: 100px;
+        position: absolute;
+        right: 180px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contant3{
+        margin: 5px;
+    }
+
+}
+
+@media(max-width:641px){
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
